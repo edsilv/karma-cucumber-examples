@@ -1,0 +1,13 @@
+<!-- hosts the app being tested -->
+
+<div id='myApp'>
+  <div class='box' style='background-color: green;'>The box</div>
+</div>
+
+<script type='text/javascript'>
+  $('.box').click(function () {
+    $('.box').css('background-color', 'red');
+  });
+
+  startCucumberRun();
+</script>

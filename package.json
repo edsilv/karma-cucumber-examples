@@ -1,0 +1,25 @@
+{
+  "name": "KarmaHelloWorld",
+  "version": "0.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-karma": "~0.9.0",
+    "karma": "~0.12.24",
+    "karma-cucumberjs": "~0.0.2",
+    "karma-jasmine": "^0.1.5",
+    "karma-chrome-launcher": "^0.1.5",
+    "requirejs": "^2.1.15",
+    "karma-requirejs": "^0.2.2"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
+}
